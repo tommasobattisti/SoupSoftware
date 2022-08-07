@@ -1,0 +1,20 @@
+{
+    "venue_title": {
+        "https://github.com/EISG/DSP/publication-1": "Kitt'A Muort",
+        "https://github.com/EISG/DSP/publication-433": "Biodiversityssssss",
+        "https://github.com/EISG/DSP/publication-502": "World Wide Web"
+    },
+    "venue_type": {
+        "https://github.com/EISG/DSP/publication-1": "http://purl.org/spar/fabio/AcademicProceedings",
+        "https://github.com/EISG/DSP/publication-433": "http://purl.org/spar/fabio/Journal",
+        "https://github.com/EISG/DSP/publication-502": "http://purl.org/spar/fabio/Journal"
+    },
+    "venue_publisher": {
+        "https://github.com/EISG/DSP/publication-1": "https://github.com/EISG/DSP/publisher-1",
+        "https://github.com/EISG/DSP/publication-433": "https://github.com/EISG/DSP/publisher-35",
+        "https://github.com/EISG/DSP/publication-502": "https://github.com/EISG/DSP/publisher-3"
+    },
+    "venue_event": {
+        "https://github.com/EISG/DSP/publication-1": "eruzione del Vesuvio"
+    }
+}
