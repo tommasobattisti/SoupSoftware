@@ -3,23 +3,14 @@ This repository contains the software developed for the "Computational Managemen
 
 The goal of the project is to develop a software capable of processing and storing specific bibliographical data. Given CSV and JSON files as input, it is possible to upload their contents in both a relational and a RDF triplestore database. By recalling the developed methods, it is also possible to simultaneously query the databases and retrieve the wanted information. The results are nomally provided to the used as a list of Python objects.
 _____________
-## Use:
+## Documentation
 
 ### Data
 
 Exemplar data for testing the project:
 
-*  [CSV file](data/relational_publications.csv) containing data about publications and a [JSON file](data/relational_other_data.json) containing additional information including the authors of each publication, the identifiers of the venue of each publication, and the identifier and name of each publisher publishing the venues;
+* Two CSV files ([CSV file 1](SoupGroup/sample data/graph_publications.csv) [CSV file 2](SoupGroup/sample data/relational_publications.csv)) containing data about publications and two JSON files ([JSON file](SoupGroup/sample data/graph_other_data.json) [JSON file 2](SoupGroup/sample data/relational_other_data.json)) containing additional information including the authors of each publication, the identifiers of the venue of each publication, and the identifier and name of each publisher publishing the venues;
 
-* for creating the RDF triplestore, there are two files, a [CSV file](data/graph_publications.csv) containing data about publications and a [JSON file](data/graph_other_data.json) containing additional information including the authors of each publication, the identifiers of the venue of each publication, and the identifier and name of each publisher publishing the venues.
-
-## Workflow
-
-![Workflow of the project](workflow.png)
-
-## Data model
-
-![Data model](datamodel.png)
 
 ## UML of data model classes
 
