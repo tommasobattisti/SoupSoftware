@@ -16,13 +16,14 @@ Exemplar data for testing the project:
 
 ![Data model classes](uml.png)
 
-All the methods of each class must return the appropriate value that have been specified in the object of that class when it has been created. It iIs up to the implementer to decide how to enable someone to add this information to the object of each class, e.g. by defining a specific constructor. While one can add additional methods to each class if needed, it is crucial that the *get* methods introduced in the UML diagram are all defined.
+The methods of each class return the appropriate value that have been specified in the object of that class when it has been created. 
 
 ## UML of additional classes
 
 ![Data model classes](uml2.png)
 
-All the attributes methods of each class are defined as follows. All the constructors of each of the class introduced in the UML diagram do not take in input any parameter. While one can add additional methods to each class if needed, it is crucial that all the methods introduced in the UML diagram are defined.
+
+## Classes and methods
 
 ### Class `RelationalProcessor`
 
@@ -165,10 +166,6 @@ result_q1 = generic.getPublicationsPublishedInYear(2020)
 result_q2 = generic.getPublicationsByAuthorId("0000-0001-9857-1511")
 # etc...
 ```
-
-## Submission of the project
-
-You have to provide all Python files implementing your project, by sharing them in some way (e.g. via OneDrive). You have to send all the files **one week before** the exam session you want to take.
 
 _____________
 Authors of the project:
